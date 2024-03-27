@@ -1,0 +1,15 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>samuel</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" [class]="isBlue ? 'blue-bg' : 'red-bg'">
+  <!-- Your content here -->
+</ion-content>
+
+<ion-footer>
+  <ion-toolbar>
+    <ion-button (click)="changeColor()" expand="full">Toggle Color</ion-button>
+  </ion-toolbar>
+</ion-footer>
